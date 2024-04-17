@@ -7,7 +7,7 @@ This is a simple Todo application built with Vue.js 3 and the Composition API. I
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/vue-todo.git
+git clone https://github.com/Bradley-Hill/vue-todo.git
 ```
 
 Then, navigate into the project directory:
@@ -27,7 +27,7 @@ npm install
 To start the development server, run:
 
 ```bash
-npm run serve
+npm run dev
 ```
 
 The application will be available at `http://localhost:8080`.
