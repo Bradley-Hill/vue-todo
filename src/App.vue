@@ -13,7 +13,17 @@ const todos_ascend = computed(() =>
   })
 );
 
-const addTodo = () => {};
+const addTodo = () => {
+  if (input_content.value.trim() === "" || input_category.value === null) {
+    return;
+  }
+  todos.push({
+    content: input_content.value,
+    category: input_category.value,
+    done: false,
+    createdAt: new Date.getTime(),
+  });
+};
 
 watch(name, (newVal) => {
   localStorage.setItem("name", newVal);
