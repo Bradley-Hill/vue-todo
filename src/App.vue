@@ -29,6 +29,10 @@ watch(name, (newVal) => {
   localStorage.setItem("name", newVal);
 });
 
+watch(todos, (newVal) => {
+  localStorage.setItem("todos", JSON.stringify(newVal));
+});
+
 onMounted(() => {
   name.value = localStorage.getItem("name") || "";
 });
