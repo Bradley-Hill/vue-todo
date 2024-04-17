@@ -1,7 +1,53 @@
-# Vue 3 + Vite
+# Vue.js 3 Todo App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple Todo application built with Vue.js 3 and the Composition API. It uses local storage to persist data.
 
-## Recommended IDE Setup
+## Project setup
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/vue-todo.git
+```
+
+Then, navigate into the project directory:
+
+```bash
+cd vue-todo
+```
+
+Next, install the project dependencies:
+
+```bash
+npm install
+```
+
+## Running the application
+
+To start the development server, run:
+
+```bash
+npm run serve
+```
+
+The application will be available at `http://localhost:8080`.
+
+## Features
+
+- Add new todo items
+- Mark todo items as completed
+- Delete todo items
+- Persist todo items in local storage
+
+## Built With
+
+- [Vue.js 3](https://v3.vuejs.org/)
+- [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+```
+
+```
